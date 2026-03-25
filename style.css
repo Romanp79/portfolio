@@ -255,3 +255,8 @@ section.active {
         transform:translateY(0);
     }
 }
+.edu-score {
+    color:#d4af37;
+    font-weight:500;
+    margin-bottom:8px;
+}
