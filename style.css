@@ -9,12 +9,12 @@ body {
 header {
     display:flex;
     justify-content:space-between;
-    align-items:center;  /* IMPORTANT */
+    align-items:center;  
     padding:20px 60px;
 }
 
 .logo img {
-    width:100px;   /* Bigger logo */
+    width:100px;  
     height:auto;
     object-fit:contain;
     transition:0.3s;
@@ -24,7 +24,7 @@ header {
     transform:scale(1.08);
 }
 
-/* NAV */
+
 nav a {
     margin:0 15px;
     cursor:pointer;
@@ -46,7 +46,7 @@ nav a:hover::after {
     width:100%;
 }
 
-/* HERO */
+
 .hero {
     text-align:center;
     padding:120px 20px;
@@ -64,7 +64,7 @@ nav a:hover::after {
     border-radius:15px;
 }
 
-/* NAME */
+
 .hero-name {
     font-family:'Playfair Display', serif;
     font-size:64px;
@@ -74,12 +74,11 @@ nav a:hover::after {
     color:#d4af37;
 }
 
-/* TAGLINE */
 .tagline {
     margin-top:10px;
 }
 
-/* BUTTON */
+
 .btn {
     margin-top:20px;
     padding:12px 30px;
@@ -93,7 +92,7 @@ nav a:hover::after {
     color:black;
 }
 
-/* SECTIONS */
+
 section {
     display:none;
     padding:80px 20px;
@@ -109,13 +108,13 @@ section.active {
     transform:translateY(0);
 }
 
-/* CONTENT BOX */
+
 .content-box {
     max-width:800px;
     margin:auto;
 }
 
-/* PROJECT */
+
 .project-card {
     margin:20px 0;
     padding:20px;
@@ -124,14 +123,14 @@ section.active {
     text-align:left;
 }
 
-/* CERT */
+
 .cert-card {
     margin:20px 0;
     padding:20px;
     background:#111;
 }
 
-/* FORM */
+
 .contact-form {
     display:flex;
     flex-direction:column;
@@ -151,13 +150,12 @@ section.active {
     border-color:#d4af37;
 }
 
-/* BUTTON */
+
 .contact-form button {
     padding:12px;
     background:#d4af37;
     border:none;
 }
-/* CONTENT BOX (ABOUT STYLE) */
 .content-box {
     max-width:800px;
     margin:auto;
@@ -165,13 +163,13 @@ section.active {
     line-height:1.8;
 }
 
-/* HIGHLIGHT WORDS */
+
 .content-box span {
     color:#d4af37;
     font-weight:500;
 }
 
-/* INFO BLOCKS (FOR SKILLS, PROJECTS, CERTIFICATES) */
+
 .info-block {
     margin:25px 0;
     padding:20px;
@@ -185,7 +183,7 @@ section.active {
     transform:translateX(8px);
 }
 
-/* LINK BUTTON */
+
 .link-btn {
     display:inline-block;
     margin-top:10px;
