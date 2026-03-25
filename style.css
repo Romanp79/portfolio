@@ -9,11 +9,19 @@ body {
 header {
     display:flex;
     justify-content:space-between;
+    align-items:center;  /* IMPORTANT */
     padding:20px 60px;
 }
 
 .logo img {
-    width:50px;
+    width:100px;   /* Bigger logo */
+    height:auto;
+    object-fit:contain;
+    transition:0.3s;
+}
+
+.logo img:hover {
+    transform:scale(1.08);
 }
 
 /* NAV */
