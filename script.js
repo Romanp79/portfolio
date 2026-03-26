@@ -3,16 +3,17 @@ function showSection(id){
         sec.classList.remove("active");
     });
 
+    const section = document.getElementById(id);
+
     setTimeout(()=>{
-        const section = document.getElementById(id);
         section.classList.add("active");
 
-        // trigger fade animation
-        section.querySelectorAll("div, p, h3").forEach(el=>{
-            el.classList.add("fade");
+        const elements = section.querySelectorAll(".animate");
+
+        elements.forEach((el, index)=>{
             setTimeout(()=>{
                 el.classList.add("show");
-            },100);
+            }, index * 150);
         });
 
     },100);
