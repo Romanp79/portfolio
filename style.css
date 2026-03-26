@@ -313,3 +313,35 @@ section.active {
         transform:translateY(0);
     }
 }
+/* GLASS EFFECT */
+.info-block,
+.project-card,
+.cert-card,
+.edu-card {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ENTRY ANIMATION */
+.animate {
+    opacity:0;
+    transform:translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.animate.show {
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* STAGGER EFFECT */
+.animate:nth-child(1){ transition-delay:0.1s; }
+.animate:nth-child(2){ transition-delay:0.2s; }
+.animate:nth-child(3){ transition-delay:0.3s; }
+.animate:nth-child(4){ transition-delay:0.4s; }
+
+/* SECTION SMOOTH SWITCH */
+section {
+    transition: all 0.5s ease;
+}
